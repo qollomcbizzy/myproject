@@ -1,0 +1,42 @@
+<!DOCTYPE >
+<html leng="en">
+<head>
+  <!--this meta enables/ensures  proper rendering and touch
+  zooming even on mobile -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- to disable zoomig we use <meta name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=1,
+  user-scalable=no">-->
+  <link  href="../bootstrap-3.3.7-dist/css/bootstrap.min.css"
+  rel="stylesheet" type="text/css">
+  <link href="Mycss.css" type="text/css" rel="stylesheet">
+  <title>first bootstrap project</title>
+  <div class="container">
+  <div class="row myheader">
+    <!--to move columns to the right we use the col-md-offset-->
+    <div class="col-md-2 col-md-offset-4"><h1>PROJECTS.COM<h1></div>
+  </div>
+  </div>
+</head>
+<body>
+  <!-- navigation for the header side -->
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- TO align to the right  we the navbar-right  -->
+        <div class="navbar-header navbar-right">
+           <ul class="nav navbar-nav">
+             <li><a href="#">HOME</a></li>
+             <li><a href="#">ABOUT</a></li>
+             <li><a href="#">CONTACT</a></li>
+             <li><a href="#">PROJECTS</a></li>
+           </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- make the div for the picture or the image-->
+    <div class="container">
+      <h2>my image</h2>
+      <img class="img-responsive" src="project.png" width=50% height="300px">
+    </div>
+</body>
+</html>
