@@ -4,3 +4,9 @@ h1{
   .myheader{
   background-color: rgb(58, 237, 204);
 }
+#myimage{
+  display: none;
+}
+#myname{
+  display:none;
+}

@@ -7,9 +7,11 @@
   <!-- to disable zoomig we use <meta name="viewport"
   content="width=device-width, initial-scale=1, maximum-scale=1,
   user-scalable=no">-->
-  <link  href="../bootstrap-3.3.7-dist/css/bootstrap.min.css"
+  <link  href="bootstrap-3.3.7-dist/css/bootstrap.min.css"
   rel="stylesheet" type="text/css">
-  <link href="Mycss.css" type="text/css" rel="stylesheet">
+  <link href="css/Mycss.css" type="text/css" rel="stylesheet">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
   <title>first bootstrap project</title>
   <div class="container">
   <div class="row myheader">
@@ -33,10 +35,24 @@
         </div>
       </div>
     </nav>
+    <!--the div container for my name -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-md-offset-8">
+          <h2><button class="btn btn-primary" id="name">MY NAME</button></h2>
+          <p id="myname">KIPROTICH COLLINS</p>
+        </div>
+      </div>
+    </div>
     <!-- make the div for the picture or the image-->
     <div class="container">
-      <h2>my image</h2>
-      <img class="img-responsive" src="project.png" width=50% height="300px">
+        <h2><button>my image</button></h2>
+        <div id="myimage">
+         <img class="img-responsive" src="image/pro.jpg"  width=50% height="300px">
+      </div>
+      <div id="projectimage">
+      <img class="img-responsive" src="image/project.png" width=50% height="300px">
     </div>
+  </div>
 </body>
 </html>
